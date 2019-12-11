@@ -168,7 +168,7 @@ struct METER_DESC {
 #define EBZD_G 14
 
 // select this meter
-#define METER EHZ161_1
+#define METER EDL300
 
 
 #if METER==EHZ161_0
