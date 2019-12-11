@@ -206,8 +206,8 @@
 #define TIME_STD_OFFSET        +60               // Offset from UTC in minutes (-780 to +780)
 
 // -- Location ------------------------------------
-#define LATITUDE               48.858360         // [Latitude] Your location to be used with sunrise and sunset
-#define LONGITUDE              2.294442          // [Longitude] Your location to be used with sunrise and sunset
+#define LATITUDE               52.858360         // [Latitude] Your location to be used with sunrise and sunset
+#define LONGITUDE              7.294442          // [Longitude] Your location to be used with sunrise and sunset
 
 // -- Application ---------------------------------
 #define APP_TIMEZONE           1                 // [Timezone] +1 hour (Amsterdam) (-13 .. 14 = hours from UTC, 99 = use TIME_DST/TIME_STD)
@@ -248,7 +248,7 @@
   // If non selected the default en-GB will be used
 //#define MY_LANGUAGE            bg-BG           // Bulgarian in Bulgaria
 //#define MY_LANGUAGE            cs-CZ           // Czech in Czech
-//#define MY_LANGUAGE            de-DE           // German in Germany
+#define MY_LANGUAGE            de-DE           // German in Germany
 //#define MY_LANGUAGE            el-GR           // Greek in Greece
 //#define MY_LANGUAGE            en-GB           // English in Great Britain. Enabled by Default
 //#define MY_LANGUAGE            es-ES           // Spanish in Spain
